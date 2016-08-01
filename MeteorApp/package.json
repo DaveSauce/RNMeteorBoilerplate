@@ -1,0 +1,20 @@
+{
+  "name": "RNMeteorBoilerplate",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "react": "15.2.1",
+    "react-native": "0.30.0",
+    "react-native-meteor": "^1.0.0-rc14",
+    "meteor-node-stubs": "~0.2.0",
+    "react-dom": "^15.0.0-rc.1",
+    "react-hot-loader": "^3.0.0-beta.2",
+    "react-layout": "^1.1.0",
+    "react-mounter": "^1.1.0",
+    "react-redux": "^4.4.1",
+    "redux": "^3.3.1"
+  }
+}
