@@ -6,15 +6,15 @@
     "start": "node node_modules/react-native/local-cli/cli.js start"
   },
   "dependencies": {
-    "react": "15.2.1",
-    "react-native": "0.30.0",
-    "react-native-meteor": "^1.0.0-rc14",
-    "meteor-node-stubs": "~0.2.0",
-    "react-dom": "^15.0.0-rc.1",
+    "meteor-node-stubs": "^0.2.3",
+    "react": "^15.2.1",
+    "react-dom": "^15.3.0",
     "react-hot-loader": "^3.0.0-beta.2",
     "react-layout": "^1.1.0",
-    "react-mounter": "^1.1.0",
-    "react-redux": "^4.4.1",
-    "redux": "^3.3.1"
+    "react-mounter": "^1.2.0",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.6.1",
+    "react-router-redux": "^4.0.5",
+    "redux": "^3.5.2"
   }
 }
