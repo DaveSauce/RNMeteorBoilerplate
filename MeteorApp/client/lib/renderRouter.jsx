@@ -1,11 +1,4 @@
 /* jshint esversion: 6 */
-//
-// import React from 'react';
-// import ReactDOM from 'react-dom';
-// import renderRoutes from './../../app/config/routes.jsx';
-//
-// ReactDOM.render( renderRoutes, document.body );
-
 
 import React from 'react';
 import ReactDOM from 'react-dom';

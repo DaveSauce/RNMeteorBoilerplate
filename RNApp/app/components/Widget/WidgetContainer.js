@@ -1,9 +1,9 @@
 /* jshint esversion: 6 */
 
 import React from 'react';
-import WidgetContainer from './Widget.js';
+import Widget from './Widget.js';
 
-const Widget = ( props ) => {
+const WidgetContainer = ( props ) => {
   return (
     <Widget />
   );
