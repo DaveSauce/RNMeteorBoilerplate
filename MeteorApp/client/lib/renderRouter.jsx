@@ -8,7 +8,6 @@ import { Router, Route, browserHistory } from 'react-router';
 import { syncHistoryWithStore, routerReducer } from 'react-router-redux';
 
 import reducers from './../../app/reducers/initialState.js';
-import renderRoutes from './../../app/config/routes.jsx';
 
 import App from './../../app/routes/App';
 import Edit from './../../app/routes/Edit';

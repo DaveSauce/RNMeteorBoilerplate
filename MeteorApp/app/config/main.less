@@ -1,8 +1,8 @@
 // reset - loading directly to prevent multiple versions (bower)
-// @import '/lib/reset.import.less';
+@import '/app/config/reset.import.less';
 
 // Variables
-// @import '/lib/mixins.import.less';
+@import '/app/config/mixins.import.less';
 // @import '/lib/variables.import.less';
 
 // Globals
@@ -12,5 +12,8 @@
 // @import '/lib/cumulo-font.import.less';
 
 // Layouts
-@import './../layout/Edit/edit.import.less';
-@import './../layout/List/list.import.less';
+@import '/app/routes/Edit/edit.import.less';
+@import '/app/routes/List/list.import.less';
+
+// components
+@import '/app/components/Widget/widget.import.less';

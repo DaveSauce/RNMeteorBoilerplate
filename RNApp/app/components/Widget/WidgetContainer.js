@@ -1,12 +1,11 @@
 /* jshint esversion: 6 */
 
-import React from 'react';
+import Meteor, { createContainer } from 'react-native-meteor';
 import Widget from './Widget.js';
 
-const WidgetContainer = ( props ) => {
-  return (
-    <Widget />
-  );
-};
-
-export default WidgetContainer;
+export default createContainer(() => {
+  Meteor.subscribe( 'items' );
+  return {
+    count: Meteor.collection( 'items' ).find().length,
+  };
+}, Widget);
