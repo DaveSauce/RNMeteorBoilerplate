@@ -6,7 +6,9 @@
     "start": "node node_modules/react-native/local-cli/cli.js start"
   },
   "dependencies": {
+    "apollo-client": "^0.4.11",
     "react": "15.2.1",
+    "react-apollo": "^0.3.20",
     "react-native": "0.30.0",
     "react-native-meteor": "^1.0.0-rc14",
     "react-native-router-flux": "^3.32.0",

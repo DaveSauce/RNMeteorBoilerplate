@@ -6,9 +6,11 @@
     "start": "node node_modules/react-native/local-cli/cli.js start"
   },
   "dependencies": {
+    "apollo-client": "^0.4.11",
     "meteor-node-stubs": "^0.2.3",
     "react": "^15.2.1",
     "react-addons-pure-render-mixin": "^15.3.0",
+    "react-apollo": "^0.3.20",
     "react-dom": "^15.3.0",
     "react-hot-loader": "^3.0.0-beta.2",
     "react-layout": "^1.1.0",
