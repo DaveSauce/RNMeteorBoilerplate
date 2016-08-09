@@ -20,3 +20,9 @@ ecmascript@0.5.7              # Enable ECMAScript2015+ syntax in app code
 # reactrouter:react-router-ssr  # react-helmet recommended pairing for SEO
 react-meteor-data
 lauricio:less-autoprefixer
+
+# Astronomy Schema
+jagi:astronomy
+jagi:astronomy-timestamp-behavior
+jagi:astronomy-slug-behavior
+jagi:astronomy-softremove-behavior
